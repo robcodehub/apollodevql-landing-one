@@ -7,9 +7,11 @@ const ValueProp = props => {
     <section className="value-prop">
       <div className="value-prop-content">
         <div className="main-message">
-          <h1>Here is our amazing product</h1>
-          <p className="main-subtitle">Please buy our amazing product. You&apos;re gonna love it. Promise.</p>
-          <Button label="Get Started" />
+          <h1>ApolloDevQL</h1>
+          <p className="main-subtitle">The Apollo GraphQL Dev tool you've been looking for</p>
+          <Button label="Install the Extension" />
+          <h3> OR </h3>
+          <Button label="View on GitHub" />
         </div>
         <div className="main-photo"></div>
       </div>

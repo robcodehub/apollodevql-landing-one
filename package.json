@@ -25,11 +25,11 @@
     "prettier": "2.0.5"
   },
   "keywords": [
-    "gatsby"
-    ,"landing-page"
-    ,"saas"
-    ,"starter"
-    ,"home-page"
+    "gatsby",
+    "landing-page",
+    "saas",
+    "starter",
+    "home-page"
   ],
   "license": "MIT",
   "scripts": {

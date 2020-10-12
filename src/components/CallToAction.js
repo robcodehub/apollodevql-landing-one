@@ -5,9 +5,10 @@ const CallToAction = props => {
 
   return (
     <section className="cta">
-      <h1>Try our awesome product.</h1>
-      <p>There&apos;s nothing to lose. 30 days free trial.</p>
-      <Button label="Get Started" />
+      <h1>Install the Chrome Extension</h1>
+      <p>Install the Chrome extension on the Chrome Store or using GitHub</p>
+      <Button label="Install the Chrome Extension" />
+      <Button label="View the GitHub Code" />
     </section>
   )
 };
