@@ -33,8 +33,8 @@ const Header = ({ siteTitle }) => {
             </h4>
           </div>
           <ul className={navClasses}>
-            <li className={navItemClasses}><a href="#">Features</a></li>
-            <li className={navItemClasses}><a href="#">About</a></li>
+            <li className={navItemClasses}><a href="#features">Features</a></li>
+            <li className={navItemClasses}><a href="#team">Team</a></li>
             <li className={navItemClasses}><a href="#">GitHub</a></li>
             <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Install Extension</a></li>
           </ul>

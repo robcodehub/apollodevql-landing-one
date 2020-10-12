@@ -3,7 +3,7 @@ import React from 'react';
 const ProductFeatures = props => {
 
   return (
-    <section className="product-features">
+    <section className="product-features" id="features">
       <h1>ApolloDevQL Features</h1>
       <div className="core-features">
         <div className="core-feature-1">

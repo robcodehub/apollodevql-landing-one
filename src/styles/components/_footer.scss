@@ -44,7 +44,26 @@
 }
 
 .social-instagram {
-  background: url("../assets/social-media/social-instagram.svg") no-repeat center;
+  background: url("../assets/social-media/social-instagram.svg") no-repeat
+    center;
+  background-size: 100% 100%;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 0;
+  margin: 0 0.25em;
+}
+
+.social-github {
+  background: url("../assets/social-media/social-github.svg") no-repeat center;
+  background-size: 100% 100%;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 0;
+  margin: 0 0.25em;
+}
+
+.social-linkedin {
+  background: url("../assets/social-media/social-linkedin.svg") no-repeat center;
   background-size: 100% 100%;
   height: 1.5rem;
   width: 1.5rem;
@@ -74,6 +93,22 @@
   }
 
   .social-instagram {
+    background-size: 100% 100%;
+    height: 2rem;
+    width: 2rem;
+    font-size: 0;
+    margin: 0 0.75em;
+  }
+
+  .social-github {
+    background-size: 100% 100%;
+    height: 2rem;
+    width: 2rem;
+    font-size: 0;
+    margin: 0 0.75em;
+  }
+
+  .social-linkedin {
     background-size: 100% 100%;
     height: 2rem;
     width: 2rem;

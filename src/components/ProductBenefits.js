@@ -3,7 +3,7 @@ import React from 'react';
 const ProductBenefits = props => {
 
   return (
-    <section className="product-benefits">
+    <section className="product-benefits" >
       <div className="product-benefits-group">
         <div className="product-benefit-1-tagline">
           Analyze Performance and Network Metrics

@@ -27,10 +27,10 @@
 
 .testimonial-card-1,
 .testimonial-card-2,
-.testimonial-card-3  {
+.testimonial-card-3 {
   background-color: $backgroundColor;
   max-width: 16rem;
-  height: 35rem;
+  height: 10rem;
   margin: 1rem auto;
   border-radius: 4rem;
   display: flex;
@@ -45,7 +45,8 @@
 }
 
 .testimonial-1-photo {
-  background: url("../assets/testimonials/testimonial-photo-1.svg") no-repeat center;
+  background: url("../assets/testimonials/testimonial-photo-1.svg") no-repeat
+    center;
   background-size: cover;
   height: 50%;
   width: 100%;
@@ -53,15 +54,17 @@
 }
 
 .testimonial-2-photo {
-  background: url("../assets/testimonials/testimonial-photo-2.svg") no-repeat center;
-  background-size:cover;
+  background: url("../assets/testimonials/testimonial-photo-2.svg") no-repeat
+    center;
+  background-size: cover;
   height: 50%;
   width: 100%;
   border-radius: 4rem 4rem 0 0;
 }
 
 .testimonial-3-photo {
-  background: url("../assets/testimonials/testimonial-photo-3.svg") no-repeat center;
+  background: url("../assets/testimonials/testimonial-photo-3.svg") no-repeat
+    center;
   background-size: cover;
   height: 50%;
   width: 100%;
@@ -71,7 +74,7 @@
 .testimonial-1-message,
 .testimonial-2-message,
 .testimonial-3-message {
-  height: 50%;
+  height: 40%;
 }
 
 .testimonial-1-content,
@@ -79,7 +82,7 @@
 .testimonial-3-content {
   margin: 2rem;
   text-align: left;
-  content: '';
+  content: "";
 }
 
 .testimonial-1-content::before,
@@ -100,7 +103,7 @@
   font-size: 1.5em;
 }
 
-@include breakpoint('from-tablet-p') {
+@include breakpoint("from-tablet-p") {
   .testimonial-group {
     margin: 0 auto;
     flex-direction: row;
@@ -109,17 +112,17 @@
   }
   .testimonial-card-1,
   .testimonial-card-2,
-  .testimonial-card-3  {
+  .testimonial-card-3 {
     max-width: 14rem;
-    height: 40rem;
-  }  
+    height: 20rem;
+  }
 }
 
-@include breakpoint('from-tablet-l') {
+@include breakpoint("from-tablet-l") {
   .testimonial-card-1,
   .testimonial-card-2,
-  .testimonial-card-3  {
+  .testimonial-card-3 {
     max-width: 16rem;
-    height: 35rem;
-  }    
+    height: 20rem;
+  }
 }
