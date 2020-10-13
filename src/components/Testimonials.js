@@ -14,7 +14,7 @@ const Testimonials = props => {
             <div className="social-media">
 
 <a href="https://github.com/sdang-git" target="_blank" rel="noreferrer"><div className="social-github">GitHub</div></a>
-<a href="https://www.linkedin.com"><div className="social-linkedin">LinkedIn</div></a>
+<a href="https://www.linkedin.com/in/sdang1984/" target="_blank" rel="noreferrer"><div className="social-linkedin">LinkedIn</div></a>
 
 </div>
           </div>
@@ -27,7 +27,7 @@ const Testimonials = props => {
           <div className="social-media">
 
 <a href="https://github.com/mdigel" target="_blank" rel="noreferrer"><div className="social-github">GitHub</div></a>
-<a href="https://www.linkedin.com"><div className="social-linkedin">LinkedIn</div></a>
+<a href="https://www.linkedin.com/in/matt-digel/" target="_blank" rel="noreferrer"><div className="social-linkedin">LinkedIn</div></a>
 
 </div>
         </div>
@@ -40,7 +40,7 @@ const Testimonials = props => {
         <div className="social-media">
 
 <a href="https://github.com/lanre-mark" target="_blank" rel="noreferrer"><div className="social-github">GitHub</div></a>
-<a href="https://www.linkedin.com"><div className="social-linkedin">LinkedIn</div></a>
+<a href="https://www.linkedin.com/in/lanre-mark/" target="_blank" rel="noreferrer"><div className="social-linkedin">LinkedIn</div></a>
 
 </div>
       </div>
@@ -53,7 +53,7 @@ const Testimonials = props => {
         <div className="social-media">
 
 <a href="https://github.com/robcodehub" target="_blank" rel="noreferrer"><div className="social-github" >GitHub</div></a>
-<a href="https://www.linkedin.com"><div className="social-linkedin">LinkedIn</div></a>
+<a href="https://www.linkedin.com/in/robertwise/" target="_blank" rel="noreferrer"><div className="social-linkedin">LinkedIn</div></a>
 
 </div>
       </div>
