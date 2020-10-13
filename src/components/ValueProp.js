@@ -9,9 +9,9 @@ const ValueProp = props => {
         <div className="main-message">
           <h1>ApolloDevQL</h1>
           <p className="main-subtitle">The Apollo GraphQL Dev tool you've been looking for</p>
-          <Button label="Install the Extension" />
+          <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"><Button label="Install the Extension" /></a>
           <h3> OR </h3>
-          <Button label="View on GitHub" />
+          <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"> <Button label="View on GitHub" /></a>
         </div>
         <div className="main-photo"></div>
       </div>

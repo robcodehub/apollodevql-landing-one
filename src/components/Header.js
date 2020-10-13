@@ -35,8 +35,8 @@ const Header = ({ siteTitle }) => {
           <ul className={navClasses}>
             <li className={navItemClasses}><a href="#features">Features</a></li>
             <li className={navItemClasses}><a href="#team">Team</a></li>
-            <li className={navItemClasses}><a href="#">GitHub</a></li>
-            <li className={`${navItemClasses} nav-item-bold`} ><a href="#">Install Extension</a></li>
+            <li className={navItemClasses}><a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li className={`${navItemClasses} nav-item-bold`} ><a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer">Install Extension</a></li>
           </ul>
           <div className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>

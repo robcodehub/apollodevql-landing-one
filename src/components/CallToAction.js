@@ -7,8 +7,8 @@ const CallToAction = props => {
     <section className="cta">
       <h1>Install the Chrome Extension</h1>
       <p>Install the Chrome extension on the Chrome Store or using GitHub</p>
-      <Button label="Install the Chrome Extension" />
-      <Button label="View the GitHub Code" />
+      <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"> <Button label="Install the Chrome Extension" /></a>
+      <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"><Button label="View the GitHub Code" /></a>
     </section>
   )
 };
