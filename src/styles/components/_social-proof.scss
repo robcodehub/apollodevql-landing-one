@@ -11,32 +11,72 @@
   padding: 2em;
   div {
     width: 4rem;
-    height: 3rem;
-    margin: 0.3em 1.5em;
+    height: 4rem;
+    margin: 0.2em 1.5em;
   }
 }
 
 .facebook {
-  background: url('../assets/social-proof/facebook.png') no-repeat center;
-  background-size:  100% 75%;
+  background: url("../assets/social-proof/facebook.png") no-repeat center;
+  background-size: 100% 75%;
 }
 
 .google {
-  background: url('../assets/social-proof/google.png') no-repeat center;
-  background-size:  100% 75%;
+  background: url("../assets/social-proof/google.png") no-repeat center;
+  background-size: 100% 75%;
 }
 
 .uber {
-  background: url('../assets/social-proof/uber.png') no-repeat center;
-  background-size:  100% 75%;
+  background: url("../assets/social-proof/uber.png") no-repeat center;
+  background-size: 100% 75%;
 }
 
 .apple {
-  background: url('../assets/social-proof/airbnb.png') no-repeat center;
+  background: url("../assets/social-proof/airbnb.png") no-repeat center;
   background-size: 100% 75%;
 }
 
 .twitter {
-  background: url('../assets/social-proof/twitter.png') no-repeat center;
-  background-size:  100% 75%;
+  background: url("../assets/social-proof/twitter.png") no-repeat center;
+  background-size: 100% 75%;
+}
+
+.react1 {
+  background: url("../assets/social-proof/reactlogo1.png") no-repeat center;
+  background-size: 100% 75%;
+}
+
+.react2 {
+  background: url("../assets/social-proof/reactlogo2.png") no-repeat center;
+  background-size: 100% 75%;
+}
+
+.graphql1 {
+  background: url("../assets/social-proof/graphqllogo1.png") no-repeat center;
+  background-size: 100% 75%;
+}
+
+.materialui1 {
+  background: url("../assets/social-proof/materialui1.jpg") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.materialui2 {
+  background: url("../assets/social-proof/materialui2.png") no-repeat center;
+  background-size: 100% 75%;
+}
+
+.materialui3 {
+  background: url("../assets/social-proof/materialui3.png") no-repeat center;
+  background-size: 100% 75%;
+}
+
+.tslogo1 {
+  background: url("../assets/social-proof/ts-logo-256.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.apollologo1 {
+  background: url("../assets/social-proof/apollo1.svg") no-repeat center;
+  background-size: 100% 75%;
 }

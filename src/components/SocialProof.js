@@ -4,12 +4,14 @@ const SocialProof = props => {
 
   return (
     <section className="social-proof">
+
       <div className="social-proof-icons">
-        <div className="uber"></div>
-        <div className="google"></div>
-        <div className="twitter"></div>
-        <div className="apple"></div>
-        <div className="facebook"></div>
+      <h3>Built With:</h3>
+        <div className="react1"></div>
+        <div className="tslogo1"></div>
+        <div className="materialui1"></div>
+        <div className="graphql1"></div>
+        <div className="apollologo1"></div>
       </div>
     </section>
   )
