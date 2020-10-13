@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Landing`,
-    description: `Clean and modern landing page starter template for your next saas project launch.`,
+    title: `ApolloDevQL`,
+    description: `ApolloDevQL is a developer tool for working with Apollo GraphQL.`,
     siteUrl: `https://www.gatsby-landing-page-starter.com`,
     author: `@btahir`,
   },
@@ -30,6 +30,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`  
+    `gatsby-plugin-sitemap`
   ],
 }
