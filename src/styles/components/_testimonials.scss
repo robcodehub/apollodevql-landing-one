@@ -54,8 +54,7 @@
 }
 
 .testimonial-2-photo {
-  background: url("../assets/testimonials/testimonial-photo-2.svg") no-repeat
-    center;
+  background: url("../assets/testimonials/mattprofile.jpg") no-repeat center;
   background-size: cover;
   height: 50%;
   width: 100%;
@@ -63,8 +62,15 @@
 }
 
 .testimonial-3-photo {
-  background: url("../assets/testimonials/testimonial-photo-3.svg") no-repeat
-    center;
+  background: url("../assets/testimonials/lanreprofile.jpg") no-repeat center;
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+  border-radius: 4rem 4rem 0 0;
+}
+
+.testimonial-4-photo {
+  background: url("../assets/testimonials/robprofile.jpg") no-repeat center;
   background-size: cover;
   height: 50%;
   width: 100%;
