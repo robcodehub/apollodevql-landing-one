@@ -7,7 +7,12 @@ const Footer =  ({ siteTitle }) => {
       <div className="footer-belt">
         <div className="company-sign">
         &copy; 2020 {siteTitle}
+
       </div>
+      <div>
+      <a style={{color:"white"}} href="/privacy">Terms and Privacy</a>
+      </div>
+
         <div className="social-media">
 
           <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"><div className="social-github">GitHub</div></a>

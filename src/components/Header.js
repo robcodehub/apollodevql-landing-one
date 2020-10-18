@@ -38,7 +38,7 @@ const Header = ({ siteTitle }) => {
             <li className={navItemClasses}><a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer">GitHub</a></li>
             <li className={`${navItemClasses} nav-item-bold`} ><a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer">Install Extension</a></li>
           </ul>
-          <div className={burgerClass} onClick={toggle}>
+          <div role="navigation" className={burgerClass} onClick={toggle}>
             <div className="burger-line-1"></div>
             <div className="burger-line-2"></div>
             <div className="burger-line-3"></div>
