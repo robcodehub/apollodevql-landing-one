@@ -1,22 +1,39 @@
-import React from 'react';
-import Button from "./Button";
+import React from "react"
+import Button from "./Button"
 
 const ValueProp = props => {
-
   return (
     <section className="value-prop">
       <div className="value-prop-content">
         <div className="main-message">
           <h1>ApolloDevQL</h1>
-          <p className="main-subtitle">The Apollo GraphQL Dev tool you've been looking for</p>
-          <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"><Button aria-label="Chrome Extension" label="Install the Extension" /></a>
+          <p className="main-subtitle">
+            The Apollo GraphQL Dev tool you've been looking for
+          </p>
+          <a
+            href="https://chrome.google.com/webstore/detail/kdbhdgkakklkjhcfiighgonefimkpaeh"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              aria-label="Chrome Extension"
+              label="Install the Extension"
+            />
+          </a>
           <h3> OR </h3>
-          <a href="https://github.com/oslabs-beta/ApolloDevQL" target="_blank" rel="noreferrer"> <Button aria-label="GitHub Code" label="View on GitHub" /></a>
+          <a
+            href="https://github.com/oslabs-beta/ApolloDevQL"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button aria-label="GitHub Code" label="View on GitHub" />
+          </a>
         </div>
         <div className="main-photo"></div>
       </div>
     </section>
   )
-};
+}
 
-export default ValueProp;
+export default ValueProp
