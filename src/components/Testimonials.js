@@ -36,7 +36,7 @@ const Testimonials = props => {
       <div className="testimonial-card-3">
         <div className="testimonial-3-photo"></div>
         <div className="testimonial-3-message">
-        <h3 className="testimonial-3-name">Lanre Makinde</h3>
+        <h3 className="testimonial-3-name">Lanre Mark</h3>
         <div className="social-media">
 
 <a href="https://github.com/lanre-mark" target="_blank" rel="noreferrer"><div className="social-github">GitHub</div></a>
